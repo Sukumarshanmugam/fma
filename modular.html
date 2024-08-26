@@ -152,7 +152,7 @@
                             </div>
                         </div>
                         <div class="d-flex m-3 me-0">
-                            <button class="btn btn-danger btn-sm">CONSULT ONLINE NOW</button>
+                            <a href="" class="btn btn-danger btn-sm m-0" data-bs-toggle="modal" data-bs-target="#consultModal">CONSULT ONLINE NOW</a>
                         </div>
                     </div>
                 </nav>
@@ -227,7 +227,7 @@
 <div class="container py-5 carousel-container">
     <!-- First Carousel -->
   
-        <h4>Modular Kitchen Designs</h4>
+        <h4>Modular Kitchen<span class="text-secondary"> Designs</span></h4>
   
                 <div class="row mb-5">
                     <div class="col-md-3 image-container">
@@ -304,18 +304,11 @@
                         <img src="img/img_10.jpg" class="d-block w-100 rounded" alt="Image 8">
                         <button class="book-consultation-btn">Book Free Consultation</button>
                     </div>
-                </div>
-           
-       
-   
-    </div>
- 
-
+                </div>                     
+    </div> 
     <!--  -->
 
     
-
-       
   <!-- Services Section Start -->
   <div class="container-fluid py-5 bg-light">
     <div class="container">
@@ -704,6 +697,42 @@
         </div>
         <!-- Copyright End -->
 
+  <!-- Modal -->
+  <div class="modal fade" id="consultModal" tabindex="-1" aria-labelledby="consultModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="consultModalLabel">Designs for <span class="text-secondary">Every</span> Budget</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="email" placeholder="Email ID">
+            </div>
+            <div class="mb-3">
+              <input type="tel" class="form-control" id="phone" placeholder="Phone number">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="property" placeholder="Local area name">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="whatsapp">
+              <label class="form-check-label" for="whatsapp">Send me updates on WhatsApp</label>
+            </div>
+            <button type="submit" class="btn btn-danger w-100 mt-3 rounded-pill">GET FREE QUOTE</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <small>By submitting this form, you agree to the <a href="#">privacy policy</a> & <a href="#">terms and conditions</a></small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- model -->
 
 
 

@@ -61,6 +61,34 @@
     min-width: 820px;
 }
 
+/* nav model */
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+    text-align: center;
+    font-size: 0.8rem;
+    
+}
+
+.modal-body input {
+    margin-bottom: 10px;
+}
+
+.modal-body button {
+    background-color: #ff5a5f;
+    border: none;
+    font-size: 1rem;
+}
+
+.modal-title {
+    font-weight: 700;
+}
+
+/* nav model */
 /*  first section*/
 .card-container {
     display: flex;
@@ -170,8 +198,38 @@
 }
 
 /*  first section*/
-/* modular page */
 
+/*  modular page */
+
+
+/*  modular page */
+
+
+/* modular detail  page */
+
+.modular-header {
+    margin-top: 142px !important;
+}
+
+.left_style{
+    border-left: 6px solid seagreen;
+    padding: 10px;
+   
+}
+.sidebar {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+
+}
+.sidebar h4 {
+    margin-bottom: 20px;
+}
+.form-control, .btn {
+    margin-bottom: 15px;
+}
 
 /*  modular page */
 
