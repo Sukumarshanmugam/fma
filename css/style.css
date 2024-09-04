@@ -380,15 +380,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
@@ -556,6 +547,7 @@
         transition: .5s;
         opacity: 0;
     }
+  
 }
 
 .dropdown .dropdown-menu a:hover {
@@ -633,14 +625,77 @@
     .page-header {
         margin-top: 152px !important;
     }
+   
 }
 
 @media (max-width: 992px) {
     .hero-header,
     .page-header {
-        margin-top: 97px !important;
+        margin-top: 50px !important;
     }
+    .offer_list {
+        min-width: 100px;
+        max-height: 300px; /* Set the maximum height */
+        overflow-y: auto;  /* Enable vertical scrolling */
+    }
+    .hero-header h1{
+    font-size: calc(1.525rem + 2vw);
+    margin-bottom: 2rem !important;
+
 }
+
+.hero-header .py-3{
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+.hero-header .px-4{
+    padding: 8px!important;
+}
+.hero-header .btn{
+    right: 6% !important;
+}
+.carousel-control-prev {
+    margin-left: 10px;
+}
+.carousel-control-next {
+    margin-right: 10px;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+}
+.featurs .container{
+padding-top: 0px !important;
+padding-bottom: 0px !important;
+}
+
+.featurs{
+    padding-top: 0px !important;
+}
+
+.display-4 {
+    font-size: calc(1.475rem + 0.9vw);
+}
+
+}
+
+/* Prevent body from scrolling when the dropdown is open */
+.dropdown-menu.show {
+    overflow-y: auto;
+}
+
+body.modal-open {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+}
+
 /*** Hero Header end ***/
 
 
